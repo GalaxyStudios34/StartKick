@@ -1,0 +1,25 @@
+name: startkick
+version: 1.0.0
+main: Cinnec\startkick\Main
+api: 4.0.8
+src-namespace-prefix: Cinnec\startkick
+commands:
+  startkick:
+    description: "Starte einen Startkick gegen einen Spieler"
+    usage: "/startkick"
+    permission: startkick.perm
+  ja:
+    description: "Stimme für einen Spieler bei einem Startkick"
+    usage: "/ja"
+    permission: vote.perm
+  nein:
+    description: "Stimme gegen einen Spieler bei einem Startkick"
+    usage: "/no"
+    permission: vote.perm
+permissions:
+  startkick.perm:
+    default: true
+    description: "Jeder darf einen Startkick starten"
+  vote.perm:
+    default: true
+    description: "Jeder darf mit abstimmen"

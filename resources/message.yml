@@ -1,0 +1,25 @@
+# Du kannst die Nachrichten editieren indem du die Nachrichten zwischen den " " änderst. Bei Problemen gerne über GitHub an mich wenden
+
+# Diese Nachricht wird gesendet wenn der Spieler kein startkick ausführen darf ( Ändere bei Bedarf die permission startkick in der plugin.yml)
+wrongMessage: "Du bist nicht dazu berechtigt einen Startkick auszuführen"
+
+# Hier sind die einzelnen Bestandteile der Form
+startKickFormTitle: "Bitte wähle einen Spieler aus"
+
+# Sollte es gerade keine Abstimmung geben, jedoch ein Spieler trotzdem voten wollen, wird ihm diese Nachricht gesendet
+noStartkick: "Du kannst diese Befehl gerade nicht benutzen, da niemand gestartkickt wird"
+
+# Wenn ein Startkick gerade läuft jemand aber einen weiteren starten will wird diese Nachricht gesendet
+onlyOneStartKickPerTime: "Es findet bereits ein Startkick statt. Du kannst nicht noch einen starten"
+
+successfulYes: "Du hast erfolgreich §afür §feinen Startkick gestimmt"
+
+successfulNo: "Du hast erfolgreich §cgegen §feinen Startkick gestimmt"
+
+alreadyVotedMessage: "Du hast bereits bei diesem Startkick abgestimmt"
+
+# Diese Nachricht wird an den Ersteller des Votekicks gesendet, wenn er einen Startkick erstellt hat
+
+successfulStart: "Dein Startkick wurde erfolgreich gestartet. Deine Stimme wurde automatisch auf \"für\" den Kick gestellt"
+
+startKickEnd: "Die Abstimmung ist vorbei. Die Ergebnisse lauten:"
