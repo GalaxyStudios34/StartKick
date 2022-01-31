@@ -14,7 +14,7 @@ commands:
     permission: vote.perm
   nein:
     description: "Stimme gegen einen Spieler bei einem Startkick"
-    usage: "/no"
+    usage: "/nein"
     permission: vote.perm
 permissions:
   startkick.perm:
